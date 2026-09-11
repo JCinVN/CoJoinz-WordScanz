@@ -1,13 +1,14 @@
 // WordScanz offline support.
 // Bump CACHE_NAME any time index.html changes so returning visitors get the
 // new version instead of a stale cached copy.
-const CACHE_NAME = 'wordscanz-cache-v1';
+const CACHE_NAME = 'wordscanz-cache-v2';
 const FILES_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './icon-192-v1.png',
-  './icon-512-v1.png'
+  './icon-512-v1.png',
+  './dictionary.txt'
 ];
 
 self.addEventListener('install', (event) => {
