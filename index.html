@@ -7,6 +7,9 @@
     <meta name="description" content="WordScanz v09.07 - High-performance word search, anagram, combinatorial multi-point tile constraint solver, and dictionary lookup tool." />
     <meta property="og:title" content="WordScanz v09.07" />
     <meta property="og:description" content="WordScanz v09.07 - Word Lookup & Multi-Point Tile Constraint Solver" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icon-192-v1.png" />
+    <meta name="theme-color" content="#0f172a" />
     <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAC7ElEQVR42u2bO3LbMBCGdQ0VVp4zkkrVOUDKhE6ct+2k4h1UpvI5NDyBTuDeJ0hC2wr9irtUSZWBQRuxFQqL3QUIjIhgZ/4xPdpdLD4AS4uWer1kyZIlY9iTz7/EOsvLpB9/uhRdlOu8R12duAbESCNk1T/+EDEpAeAAeCQDYhQdwK4MiFAMABciRpEA1PfSWAGovxMIAHYuohQDwHmUSgDIALbPWZI2kZpJHaifE26OEOOQATzcPiNLFfVb/Gv17xNOnhDj+AIwE3qbtQzAeRw6gA9nZKntqLOKk4cwTgWMc0DN4QtAIWAbtzT5sWGMwgOAU7Kk5Ybick4u32PQAbw/JQtdHUYuwxjmXUbM4wWAKrAC+wAcs3JLazO/I4ATlvAVWvGHb2mrvsgOo9dJBvDg3QlL2BnV+EPACtfcJvkEYFylhm9fmK1PhHU9ricAFVumc9rwmyIApjZ5KaIDeFuxha7UnV+JACiXfM07i1mjbwDms3rjkwmaZdSc6wQAXS1pcyKAOWdXtQ/gzXcrmc6r1FDwbGg8/xb1hQBgWrE9JoA9447yCeC+dLYRcmYvmQBM/rlNfXQArxdWQvoAZPsWMWOb+rwDUBAq5mR2mf6VbW2hABScba5iOMej8A/g1cJaSB9YaXQqhtMgc9vaGACOrcXsA0MVM2Sdf8vaggBQE6L0gXkjZk46/w510QFsHTuJ2AeyRkxGOv8OdZEB3Ns6chKhD5RAHPZGKXepKyQArA9MgTjsrfI4DICXR85C+kAfiDE9LKlca2IAOHSW4T85BRIH9Y+Zzv/P4unPWs1rnUIDAB98thnnB8CLw1ake/TddtztpBvXOgUHEEKeAJRrrb8ThQTFkQEMNsu1FgYAiosGgA5G89oRwLdO6g6A/nUSgNoGmQzooG4BAK+TPymaAGRfRYxifVx+8FwGRST29wX+ewC104YMjEFWX5lZdt549kV0UcDE+QCW1YGvzY2IsgMQkRKAZMl6vSsfvyL4Xaiy5gAAAABJRU5ErkJggg==" />
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAC7ElEQVR42u2bO3LbMBCGdQ0VVp4zkkrVOUDKhE6ct+2k4h1UpvI5NDyBTuDeJ0hC2wr9irtUSZWBQRuxFQqL3QUIjIhgZ/4xPdpdLD4AS4uWer1kyZIlY9iTz7/EOsvLpB9/uhRdlOu8R12duAbESCNk1T/+EDEpAeAAeCQDYhQdwK4MiFAMABciRpEA1PfSWAGovxMIAHYuohQDwHmUSgDIALbPWZI2kZpJHaifE26OEOOQATzcPiNLFfVb/Gv17xNOnhDj+AIwE3qbtQzAeRw6gA9nZKntqLOKk4cwTgWMc0DN4QtAIWAbtzT5sWGMwgOAU7Kk5Ybick4u32PQAbw/JQtdHUYuwxjmXUbM4wWAKrAC+wAcs3JLazO/I4ATlvAVWvGHb2mrvsgOo9dJBvDg3QlL2BnV+EPACtfcJvkEYFylhm9fmK1PhHU9ricAFVumc9rwmyIApjZ5KaIDeFuxha7UnV+JACiXfM07i1mjbwDms3rjkwmaZdSc6wQAXS1pcyKAOWdXtQ/gzXcrmc6r1FDwbGg8/xb1hQBgWrE9JoA9447yCeC+dLYRcmYvmQBM/rlNfXQArxdWQvoAZPsWMWOb+rwDUBAq5mR2mf6VbW2hABScba5iOMej8A/g1cJaSB9YaXQqhtMgc9vaGACOrcXsA0MVM2Sdf8vaggBQE6L0gXkjZk46/w510QFsHTuJ2AeyRkxGOv8OdZEB3Ns6chKhD5RAHPZGKXepKyQArA9MgTjsrfI4DICXR85C+kAfiDE9LKlca2IAOHSW4T85BRIH9Y+Zzv/P4unPWs1rnUIDAB98thnnB8CLw1ake/TddtztpBvXOgUHEEKeAJRrrb8ThQTFkQEMNsu1FgYAiosGgA5G89oRwLdO6g6A/nUSgNoGmQzooG4BAK+TPymaAGRfRYxifVx+8FwGRST29wX+ewC104YMjEFWX5lZdt549kV0UcDE+QCW1YGvzY2IsgMQkRKAZMl6vSsfvyL4Xaiy5gAAAABJRU5ErkJggg==" />
     <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAC7ElEQVR42u2bO3LbMBCGdQ0VVp4zkkrVOUDKhE6ct+2k4h1UpvI5NDyBTuDeJ0hC2wr9irtUSZWBQRuxFQqL3QUIjIhgZ/4xPdpdLD4AS4uWer1kyZIlY9iTz7/EOsvLpB9/uhRdlOu8R12duAbESCNk1T/+EDEpAeAAeCQDYhQdwK4MiFAMABciRpEA1PfSWAGovxMIAHYuohQDwHmUSgDIALbPWZI2kZpJHaifE26OEOOQATzcPiNLFfVb/Gv17xNOnhDj+AIwE3qbtQzAeRw6gA9nZKntqLOKk4cwTgWMc0DN4QtAIWAbtzT5sWGMwgOAU7Kk5Ybick4u32PQAbw/JQtdHUYuwxjmXUbM4wWAKrAC+wAcs3JLazO/I4ATlvAVWvGHb2mrvsgOo9dJBvDg3QlL2BnV+EPACtfcJvkEYFylhm9fmK1PhHU9ricAFVumc9rwmyIApjZ5KaIDeFuxha7UnV+JACiXfM07i1mjbwDms3rjkwmaZdSc6wQAXS1pcyKAOWdXtQ/gzXcrmc6r1FDwbGg8/xb1hQBgWrE9JoA9447yCeC+dLYRcmYvmQBM/rlNfXQArxdWQvoAZPsWMWOb+rwDUBAq5mR2mf6VbW2hABScba5iOMej8A/g1cJaSB9YaXQqhtMgc9vaGACOrcXsA0MVM2Sdf8vaggBQE6L0gXkjZk46/w510QFsHTuJ2AeyRkxGOv8OdZEB3Ns6chKhD5RAHPZGKXepKyQArA9MgTjsrfI4DICXR85C+kAfiDE9LKlca2IAOHSW4T85BRIH9Y+Zzv/P4unPWs1rnUIDAB98thnnB8CLw1ake/TddtztpBvXOgUHEEKeAJRrrb8ThQTFkQEMNsu1FgYAiosGgA5G89oRwLdO6g6A/nUSgNoGmQzooG4BAK+TPymaAGRfRYxifVx+8FwGRST29wX+ewC104YMjEFWX5lZdt549kV0UcDE+QCW1YGvzY2IsgMQkRKAZMl6vSsfvyL4Xaiy5gAAAABJRU5ErkJggg==" />
@@ -267938,5 +267941,12 @@ ZZZS
   <script src="/_aistudio-iframe.js?v=2f1c016a"></script></head>
   <body>
     <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('service-worker.js').catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>
