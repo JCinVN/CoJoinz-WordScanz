@@ -1,6 +1,6 @@
 {
-  "name": "WordScanz",
-  "short_name": "WordScanz",
+  "name": "CoJoinz Wordscanz",
+  "short_name": "Wordscanz",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
