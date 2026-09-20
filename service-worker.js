@@ -1,7 +1,7 @@
 // WordScanz offline support.
 // Bump CACHE_NAME any time index.html changes so returning visitors get the
 // new version instead of a stale cached copy.
-const CACHE_NAME = 'wordscanz-cache-v09.12';
+const CACHE_NAME = 'wordscanz-cache-v09.12-1';
 const FILES_TO_CACHE = [
   './',
   './index.html',
